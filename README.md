@@ -13,8 +13,8 @@ WebRequest request = WebRequest.Create ("http://www.contoso.com/default.html");
 request.Credentials = CredentialCache.DefaultCredentials;
 // POST variables.
 Dictionary<string, string> values = new Dictionary<string, string>();
-values["param1"] = "value1";
-values["param2"] = "value2";
+values.add("param1", "value1");
+values.add("param2", "value2");
 // Files to be send.
 FileCustom file1 = new FileCustom("filename1", "path/to/file1","application/vnd.openxmlformats-officedocument.wordprocessingml.document");
 FileCustom file2 = new FileCustom("filename2", "path/to/file2","image/jpeg");
