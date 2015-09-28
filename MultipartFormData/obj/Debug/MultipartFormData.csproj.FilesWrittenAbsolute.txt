@@ -1,0 +1,5 @@
+/var/www/html/MultipartFormData/MultipartFormData/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/var/www/html/MultipartFormData/MultipartFormData/bin/Debug/MultipartFormData.dll.mdb
+/var/www/html/MultipartFormData/MultipartFormData/bin/Debug/MultipartFormData.dll
+/var/www/html/MultipartFormData/MultipartFormData/obj/Debug/MultipartFormData.dll
+/var/www/html/MultipartFormData/MultipartFormData/obj/Debug/MultipartFormData.dll.mdb
