@@ -6,6 +6,7 @@ Build HttpWebRequest stream as Multipart/form-data to manage File Upload.</br>
 # Installation
 Simply add the MultipartFormData project to your solution and reference it in the projects you want to use it in.
 # Example
+```C#
 // Create a request for the URL.
 WebRequest request = WebRequest.Create ("http://www.contoso.com/default.html");
 // If required by the server, set the credentials.
@@ -37,3 +38,4 @@ Console.WriteLine (responseFromServer);
 // Clean up the streams and the response.
 reader.Close ();
 response.Close ();
+```
